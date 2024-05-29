@@ -1,10 +1,12 @@
 # my gellary
 
 APK download link:
-  -[here][https://drive.google.com/file/d/1TzuDPpMZT8TITEb9zuC_xyV9dgPntb2N/view?usp=drive_link]
+
+  -[here](https://drive.google.com/file/d/1TzuDPpMZT8TITEb9zuC_xyV9dgPntb2N/view?usp=drive_link)
 
 Video ScreenShot:
-  -[video][https://drive.google.com/file/d/1thSlLCEs-4XP8hoBg9brCfnMdURac2Fr/view?usp=drive_link]
+
+  -[video](https://drive.google.com/file/d/1thSlLCEs-4XP8hoBg9brCfnMdURac2Fr/view?usp=drive_link)
   
 
 ## Getting Started
