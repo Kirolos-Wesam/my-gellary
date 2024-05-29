@@ -15,12 +15,12 @@ class HomeScreen extends StatelessWidget {
     return BlocConsumer<HomeCubit, HomeState>(
       listener: (context, state) {
         if (state is ImagePickedSuccessState) {
-          
           HomeCubit.get(context).uploadImage();
         }
         if (state is AddImagePickedSuccessState) {
           HomeCubit.get(context).isShowingPopup = false;
-          showToast(text: 'Image uploaded successfully', state: ToastStates.success);
+          showToast(
+              text: 'Image uploaded successfully', state: ToastStates.success);
           HomeCubit.get(context).getData();
         }
       },
@@ -95,12 +95,16 @@ class HomeScreen extends StatelessWidget {
                           );
                         },
                         child: state is GetImageLoadingState
-                            ? CircularProgressIndicator(
-                                color: Colors.blue[900],
+                            ? Center(
+                                child: CircularProgressIndicator(
+                                  color: Colors.blue[900],
+                                ),
                               )
                             : showGridView(),
                       ),
-                      const SizedBox(height: 25,)
+                      const SizedBox(
+                        height: 25,
+                      )
                     ],
                   ),
                 ),

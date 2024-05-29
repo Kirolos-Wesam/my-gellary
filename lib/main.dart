@@ -4,6 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:my_gellary/BlocObserver.dart';
 import 'package:my_gellary/modules/homescreen/cubit/home_cubit.dart';
+
 import 'package:my_gellary/modules/loginscreen/cubit/login_cubit.dart';
 import 'package:my_gellary/modules/loginscreen/loginscreen.dart';
 import 'package:my_gellary/shared/network/remote/diohelper.dart';
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         builder: (context, child) => MaterialApp(
           debugShowCheckedModeBanner: false,
           theme: defaultTheme,
-          home:  LoginScreen(),
+          home:  const LoginScreen(),
         ),
       ),
     );

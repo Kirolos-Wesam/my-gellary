@@ -6,6 +6,11 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>NSCameraUsageDescription</key>
 <string>We need access to your camera to take pictures.</string>
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+</dict>
 	<key>CFBundleDisplayName</key>
 	<string>My Gellary</string>
 	<key>CFBundleExecutable</key>
